@@ -26,7 +26,10 @@ const AddUser = () => {
 
   const onSubmit = async e => {
     e.preventDefault();
-    await axios.post(`${apiUrl}`, user,{ headers });
+    await axios.post(`${apiUrl}`, user,{ headers })
+    .then((response) => {
+        alert("New user added successfully!");
+      })
     history.push("/");
   };
   return (
