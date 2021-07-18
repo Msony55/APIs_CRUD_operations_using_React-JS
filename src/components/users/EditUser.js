@@ -32,7 +32,10 @@ const EditUser = () => {
 
   const onSubmit = async e => {
     e.preventDefault();
-    await axios.put(`${apiUrl}/${id}`, user, { headers });
+    await axios.put(`${apiUrl}/${id}`, user, { headers })
+    .then((response) => {
+        alert("User updated sucessfully!");
+      })
     history.push("/");
   };
 
