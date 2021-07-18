@@ -42,6 +42,9 @@ const Home = () => {
 
   const deleteUser = async id => {
     await axios.delete(`${apiUrl}/${id}`,{ headers })
+    .then((response) => {
+        alert("Delete user successfully!");
+      })
     .catch(err => console.log('err', err));
     loadUsers();
   };
