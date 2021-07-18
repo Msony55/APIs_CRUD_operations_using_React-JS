@@ -34,7 +34,7 @@ const EditUser = () => {
     e.preventDefault();
     await axios.put(`${apiUrl}/${id}`, user, { headers })
     .then((response) => {
-        alert("User updated sucessfully!");
+        alert("User update successfully!");
       })
     history.push("/");
   };
