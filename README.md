@@ -1,5 +1,5 @@
 # APIs_CRUD_operations_using_React-JS
-In this task I have done CURD operation using different rest apis in React.js  and do some more stuff.
+In this task I have done CRUD operation using different rest apis in React.js  and do some more stuff.
 
 ## Let's Look into the app
 Open [http://rvj-infotech-task.vercel.app/](http://rvj-infotech-task.vercel.app/) to view it in your browser.
