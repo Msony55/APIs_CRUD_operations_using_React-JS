@@ -1,4 +1,4 @@
-# RVJ_infotech_task
+# APIs_CRUD_operations_using_React-JS
 In this task I have done CURD operation using different rest apis in React.js  and do some more stuff.
 
 ## Let's Look into the app
